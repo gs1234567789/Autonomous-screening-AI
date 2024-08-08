@@ -46,4 +46,7 @@ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/apples/img_p1_7.jpeg output3.jpeg
 ```
 Below is a demonstration image
+![text1](https://github.com/user-attachments/assets/715f6ee9-3e91-4588-a1c6-cb3c5cbf10fd)
+![text2](https://github.com/user-attachments/assets/8a2a8bd8-88b6-411e-8af8-2a0100f8ff7d)
+![text3](https://github.com/user-attachments/assets/7b0e01d0-ffc8-4bc7-a062-cd3d92f48280)
 
