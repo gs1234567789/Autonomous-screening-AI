@@ -42,6 +42,6 @@ DATASET=data/app_tom
 Run this command to see how it operates on an image from the cat folder.
 ```
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/tomatoes/img_p1_9.jpeg output1.jpeg
-imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/tomatoes/img_p1_15.jpeg output2.jpeg
+imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/tomatoes/img_p1_24.jpeg output2.jpeg
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/apples/img_p1_7.jpeg output3.jpeg
 ```
