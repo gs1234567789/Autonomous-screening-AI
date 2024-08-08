@@ -45,4 +45,5 @@ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/tomatoes/img_p1_24.jpeg output2.jpeg
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/apples/img_p1_7.jpeg output3.jpeg
 ```
+Below is a demonstration image
 
